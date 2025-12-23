@@ -1,7 +1,6 @@
 import axios from 'axios'
 
 export const api = axios.create({
-  baseURL: 'http://localhost:3333'
+  baseURL: 'https://plannerapi-r2pn.onrender.com/'
 })
 
-/* https://plannerapi-p95p.onrender.com */
